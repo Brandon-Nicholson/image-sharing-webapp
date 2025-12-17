@@ -1,0 +1,19 @@
+[project]
+name = "image-sharing-webapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "fastapi>=0.124.0",
+    "fastapi-users[sqlalchemy]>=15.0.1",
+    "imagekitio (<5)",
+    "python-dotenv>=1.2.1",
+    "uvicorn[standard]>=0.38.0",
+    "streamlit (>=1.52.1,<2.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
